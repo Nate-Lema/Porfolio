@@ -864,9 +864,13 @@ i {
 }
 
 video {
-  height: auto;
+  height: 400px;
   vertical-align: middle;
   width: 100%;
+  border-radius: 10px;
+  border-color: #cfbfbf;
+  border-style: solid;
+  background-color: #212121;
 }
 
 .overlay-desc {
@@ -914,6 +918,7 @@ video {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  padding: 3vw;
 }
 
 /* Text Overlay */
@@ -977,3 +982,21 @@ video {
   -ms-filter: none;
   filter: none !important;
 }
+.col-md-8 .card-title {
+  /* font-weight: bold; */
+  font-size: xx-large;
+  color: #0e58e0ef;
+}
+h2 {
+  font-size: 3.56rem;
+  line-height: 110%;
+  margin: 1.78rem 0 1.424rem 0;
+  text-align: center;
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
